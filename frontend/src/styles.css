@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0e1a;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8ab4ff;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    background: #1a73e8;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: #135aba;
+}
+
+.date-search input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.apod-box {
+    background: #111524;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+img, iframe {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.error {
+    color: #ff6b6b;
+}
+
+.apod-date {
+    color: #9ce0ff;
+}
+
+.explanation {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
