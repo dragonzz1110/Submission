@@ -37,6 +37,7 @@ public class ApodRepository {
                     Boolean.TRUE
             );
         } catch (Exception ex) {
+            ex.printStackTrace();
             throw new ApiException(502, "Failed to fetch data from NASA APOD API", ex);
         }
     }
